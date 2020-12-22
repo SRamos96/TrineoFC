@@ -1,0 +1,183 @@
+* { margin: 0; padding: 0; }
+@font-face {                                                                       /*Fuentes*/
+  font-family: "asap";
+  src:  url('fonts/Asap/Asap-Regular.ttf')
+}
+@font-face {
+  font-family: 'varela';
+  src: url('fonts/Varela-Regular.ttf')
+}
+@font-face {
+  font-family: 'paytone';
+  src: url('fonts/PaytoneOne-Regular.ttf');
+}
+header {                                                                            /*Header*/
+  background-image: linear-gradient(to right, white, rgb(92, 27, 11));
+  z-index: 999  ;
+  position: fixed;
+  min-width: 100%;
+  margin-top: 0;
+}
+a {
+  font-size: 1rem;
+}
+.headerFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar {
+  display: inline-block;
+  padding-top: 25px;
+}
+#logoTrineo {
+  min-width: 75px;
+}
+#navbarTogglerDemo02 {
+  font-family: "asap";
+}
+.a-white {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  margin: 10px 5px;
+}
+.a-black {
+  color: rgb(44, 39, 39);
+  font-weight: bolder;
+}
+a.a-white:hover {
+  text-decoration: none;
+  color:  rgb(92, 27, 11);
+}
+li.li-hover-nav {
+  transition: all 0.75s;
+}
+li.li-hover-nav:hover {
+  margin-bottom: 0;
+  text-decoration: none;
+  background-color: white;
+  color:  rgb(92, 27, 11);
+}
+li.li-hover-nav:hover a {
+  color:  rgb(92, 27, 11);
+}
+.body-padding-top {                                                                       /*Body Main*/
+  padding-top: 75px;
+  background-color: rgba(255, 255, 255, 0.712);
+}
+h1, h2, h3 {
+  text-align: center;
+  font-weight: bolder;
+  margin: 15px 0px;
+}
+.bg-estadio {
+  background-image: url("../img/fondoIndex.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.h3-white-bolder {
+  font-size: 3rem;
+  color: rgb(92, 27, 11);
+  font-weight: 600;
+
+}
+.p-center {
+  text-align: center;
+}
+.p-justify {
+  text-align: justify;
+  font-family: "varela";
+  font-size: 1.2rem;
+}
+.p-right {
+  text-align: right;
+}
+.p-bold {
+  font-weight: bolder;
+}
+.bg-green {
+  background-color: #04924b;
+}
+.bg-yellow {
+  background-color: #cecb0c;
+}
+.bg-grey {
+  background-color: #6f6f7a;
+  font-weight: bolder;
+}
+.bg-green, .bg-yellow, .bg-grey {
+  min-width: 100%;
+}
+.b-right {
+  border-right: 1px solid black;
+  min-width: 100%;
+}
+.bg-hinchada {
+  background-image: url("../img/hinchadaBg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.table-index th,td {
+  border: solid black 1px;
+}
+#matchesTimeline {
+  font-family: "asap";
+
+}
+#fixtureGrid {
+  display: grid;
+  min-height: 300px;
+  grid-template-columns: 2fr 4fr 1fr 1fr 4fr;
+  grid-template-rows: repeat(8, 1fr);
+  border: 1px solid black;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  font-family: "asap";
+  font-size: 1rem;
+  column-gap: 1px;
+  row-gap: 1px;
+}
+#oldArticles {
+  justify-content: center;
+}
+footer {                                                                                  /*Footer*/
+  background-image: linear-gradient(to right, white, rgb(92, 27, 11));
+}
+#ulFooter {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-family: "varela";
+  font-size: 1rem;
+  align-items: center;
+}
+.img-right {
+  display: block;
+  float: right;
+}
+.fa-instagram, .fa-facebook-square, .fa-twitter-square {
+  font-size: 1.75rem;
+}
+@media screen and (max-width: 576px) {                                                  /*Media Queries*/
+  .div-disp-none-sm{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .div-disp-none-md {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .div-disp-none-lg {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .div-disp-none-xl {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "asap";
+  src: url(styles/fonts/Asap/Asap-Regular.ttf);
+}
+@font-face {
+  font-family: "russo";
+  src: url(styles/fonts/RussoOne-Regular.ttf);
+}
+@font-face {
+  font-family: "gilroyEB";
+  src: url(styles/fonts/Gilroy-ExtraBold.otf);
+}
+@font-face {
+  font-family: "gilroyL";
+  src: url(styles/fonts/Gilroy-Light.otf);
+}
+@font-face {
+  font-family: "encode";
+  src: url(styles/fonts/EncodeSans-all.ttf);
+}
+.font-russo {
+  font-family: "russo";
+  font-size: 2rem;
+  font-weight: bolder;
+}

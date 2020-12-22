@@ -1,0 +1,29 @@
+                                              /*BG COLORS*/
+.bg-white-brown {
+  background-image: linear-gradient(to right, $white, $brown);
+}
+.bg-gray-ts {
+  background-color: rgba(255, 255, 255, 0.712);
+}
+.bg-green-ts {
+  background-color: rgba(50, 173, 39, 0.712);
+}
+.bg-red-ts {
+  background-color: rgba(235, 88, 88, 0.712);
+}
+$bgcolors:(
+        white: #FFFFFF,
+        black: #222222,
+        brown: rgb(92, 27, 11),
+        gray: #CCC,
+        hgray: #746f6f,
+        );       
+@each $bgc, $color in $bgcolors{
+    .bg-#{$bgc}{
+        background-color: $color;
+    }
+}
+                                               /*text colors*/
+.txt-black {
+  color: $black;
+}

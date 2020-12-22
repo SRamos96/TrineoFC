@@ -1,0 +1,51 @@
+header { 
+  margin-top: 0;
+  min-width: 100%;
+  position: fixed;
+  z-index: 999  ;
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .logo-trineo {
+      height: 75px;
+    }
+    nav {
+      .navbar {
+        display: inline-block;
+        margin-right: 15px;
+        padding-top: 25px;
+      }
+      ul {
+        text-align: center;
+        li {
+          margin-top: 30px;
+          transition: all 0.75s;
+          &:hover {
+            background-color: $white;
+            color: $brown;
+            margin-bottom: 0;
+            text-decoration: none;
+            a {
+              color: $brown
+            }
+          }
+          a {
+            color: $white;
+            font-family: "asap";
+            font-size: 0.9rem;
+            margin: 10px 5px;
+            text-decoration: none;
+            &:hover{
+              color: $brown;
+              text-decoration: none;
+            }
+          }
+          &.current {
+            background-color: $hgray;
+          }
+        }
+      }
+    }
+  }
+}
