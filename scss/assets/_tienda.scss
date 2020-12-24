@@ -8,6 +8,13 @@ main {
     top: 80px;
 	  z-index: 99;
   }
+  #players-stats {
+    .col-md-12 {
+      margin-bottom: 15px;
+      margin-top: 15px;
+      padding: 10px;
+    }
+  }
   .fa-shopping-cart {
     border: solid 2px $black;
     color: $black;
