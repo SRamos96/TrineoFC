@@ -156,7 +156,7 @@
             <input type="text" name="medioPrensa">
             <label for="emailPrensa">Correo electrónico:</label>
             <input type="email" name="emailPrensa" required>
-            <span>Solicitudes por grupo - adicionales:<button type="button" class="btn" data-toggle="modal"
+            <label for="cantidadPrensa">Solicitudes por grupo - adicionales:<button type="button" class="btn" data-toggle="modal"
                 data-target="#modalAdicionalesPrensa">
                 <i class="fas fa-info-circle"></i>
               </button>
@@ -180,24 +180,24 @@
                   </div>
                 </div>
               </div>
-            </span>
+            </label>
             <select name="cantidadPrensa" required>
               <option selected>Ninguna</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
             </select>
-            <span>Acceso al campo de juego:</span>
+            <label for="radioCampoPrensa">Acceso al campo de juego:</label>
             <div>
               <div class="d-inline">SI <input type="radio" name="radioCampoPrensa" value="0"></div>
               <div class="d-inline">NO <input type="radio" name="radioCampoPrensa" value="1" checked="checked"></div>
             </div>
-            <span>Acceso a las cabinas de transmisión:</span>
+            <label for="radioCabinasPrensa">Acceso a las cabinas de transmisión:</label>
             <div>
               <div class="d-inline">SI <input type="radio" name="radioCabinasPrensa" value="0"></div>
               <div class="d-inline">NO <input type="radio" name="radioCabinasPrensa" value="1" checked="checked"></div>
             </div>
-            <span>Acceso a la conferencia de prensa post-partido:</span>
+            <label for="radioConferenciaPrensa">Acceso a la conferencia de prensa post-partido:</label>
             <div>
               <div class="d-inline">SI <input type="radio" name="radioConferenciaPrensa" value="0"></div>
               <div class="d-inline">NO <input type="radio" name="radioConferenciaPrensa" value="1" checked="checked">
@@ -269,8 +269,8 @@
       </div>
     </div>
   </footer>
-  <script src="../js/bootstrap.min.js"></script>
   <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
 </body>
 
 </html>
