@@ -40,11 +40,19 @@ body {
     }
     h5 {
       font-family: "gilroyEB";
-      text-align: center;
       font-size: 1.2rem;
+      text-align: center;
     }
     form {
       padding: 10px;
+    }
+    .partido {
+      padding-bottom: 15px;
+    }
+    .btn-partidos-media {
+      background-color: $white;
+      color: $brown;
+      font-family: "gilroyEB";
     }    
 }
 #ultimoPartido {
